@@ -1,4 +1,4 @@
-# require "open-uri"
+require "open-uri"
 # Ingredient.destroy_all
 
 # json = open("https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list").read
@@ -16,10 +16,18 @@ Cocktail.destroy_all
 
 
 puts "creating..."
-10.times do
-  Cocktail.create!(
+n = 0
+4.times do
+  n += 1
+  cocktail = Cocktail.new(
     name: Faker::TvShows::BreakingBad.episode
   )
+
+  file = File.open("#{n}.jpg")
+  cocktail.photo.attach(io: file, filename: "#{n}.jpg", content_type: 'image/jpg')
+  cocktail.save!
 end
 
 puts "...finished"
+
+

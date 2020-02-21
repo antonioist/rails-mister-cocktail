@@ -4,22 +4,23 @@
   h2 {
     border-bottom: 1px solid black;
   }
-
-.dose-show {
-  display: flex;
-  height:100%;
 }
 
+.container-cocktail-show-name {
+  text-align: center;
+  padding-top: 16px;
+}
 .all-show {
-  display: flex;
-  justify-content: space-evenly;
+  // display: flex;
+  // justify-content: space-evenly;
+  padding: 0 16px;
 }
 
 .dose-show-ingredien {
   display: flex;
 }
 
-}
+
 
 .container-navbar {
   background-color: rgba(244, 244, 244, 0.5);
@@ -28,8 +29,10 @@
 .container-show-full {
   // display: flex;
   // justify-content: space-around;
+  position: relative;
+  top: 24px;
   background-color: rgba(244, 244, 244, 0.5);
-  height: auto;
+  height: 300px;
   width: 400px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
   border-radius: 4px;

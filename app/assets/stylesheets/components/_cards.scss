@@ -34,6 +34,9 @@
   position: relative;
   background-size: cover;
   background-position: center;
+  // background-size: contain;
+  // background-repeat: no-repeat;
+  // background-color: black;
   height: 180px;
   // width: 400px;
   display: flex;
@@ -52,8 +55,8 @@
   position: relative;
   background-size: cover;
   background-position: center;
-  height: 180px;
-  width: 400px;
+  height: 350px;
+  width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
