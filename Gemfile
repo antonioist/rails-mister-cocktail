@@ -31,8 +31,13 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
+# postpress
+
 # faker
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+
+# secrets
+gem 'dotenv-rails', groups: [:development, :test]
 
 # add
 
