@@ -1,0 +1,10 @@
+.modal-content {
+  border-radius: 16px;
+  border: 2px solid $button;
+}
+.modal-footer {
+  .button {
+    padding: 2px 8px;
+    font-size: 16px;
+  }
+}

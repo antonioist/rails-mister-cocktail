@@ -27,3 +27,11 @@
       background-color: $button-hover;
     }
 }
+
+.fa-skull {
+  color: $button;
+  &:hover {
+      text-decoration: none;
+      color: $button-hover;
+    }
+}
