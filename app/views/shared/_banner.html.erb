@@ -1,0 +1,15 @@
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://psychedelictimes.com/wp-content/uploads/2017/07/cocktail-594173_1280.jpg);">
+  <div class="banner-info">
+    <h1>Psychedelic Cocktails</h1>
+    <p>Change your life and learn how to create cocktails</p>
+    <div class="dropdown">
+      <button class="button-dropdown dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Check it out now!
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <%= link_to "Cocktails", cocktails_path, class: "dropdown-item button"  %>
+        <%= link_to "New Cocktail", cocktails_path, class: "dropdown-item button"  %>
+      </div>
+    </div>
+  </div>
+</div>

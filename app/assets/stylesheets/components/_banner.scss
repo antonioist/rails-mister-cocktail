@@ -2,7 +2,8 @@
   background-size: cover;
   background-position: center;
   padding: 150px 0;
-  margin-bottom: 16px;
+  // margin-bottom: 16px;
+  height: 100%;
 }
 
 .banner h1 {
@@ -18,4 +19,29 @@
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.banner-info {
+  position: relative;
+  margin-left: 8px;
+}
+
+.dropdown-menu {
+  .button {
+    padding: 3px 41px;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+}
+
+.dropdown {
+  .button-dropdown {
+    padding: 4px 16px;
+    font-size: 16px;
+  }
+
+}
+.dropdown-toggle {
+  border-radius: 8px;
+  background-color: $button;
 }

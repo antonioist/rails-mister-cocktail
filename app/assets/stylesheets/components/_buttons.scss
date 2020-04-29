@@ -1,10 +1,29 @@
-#blender {
-  font-size: 50px;
-  position: relative;
-  top: 130px;
-  left: 1021px;
-  color: rgba(222, 218, 229, 0.3);
-  &:hover {
-  color: rgb(175, 170, 183)
-  }
+.button {
+  background-color: $button;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  border-radius: 8px;
+    &:hover {
+      text-decoration: none;
+      color: white;
+      background-color: $button-hover;
+    }
+}
+
+.button-dropdown {
+  background-color: $button;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  border-radius: 8px;
+    &:hover {
+      text-decoration: none;
+      color: white;
+      background-color: $button-hover;
+    }
 }

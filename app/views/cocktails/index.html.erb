@@ -1,12 +1,4 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://psychedelictimes.com/wp-content/uploads/2017/07/cocktail-594173_1280.jpg);">
-  <div class="container">
-    <h1>Psychedelic Cocktails</h1>
-    <p>Change your life and learn how to create cocktails</p>
-    <%= link_to new_cocktail_path do %>
-      <i id="blender" class="fas fa-blender"></i>
-    <% end %>
-  </div>
-</div>
+<%= render "shared/banner" %>
 <div class="cards">
   <% @cocktails.each do |cocktail| %>
     <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= cl_image_path cocktail.photo.key, crop: :fill %>')">

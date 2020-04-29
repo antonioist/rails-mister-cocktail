@@ -23,6 +23,9 @@ class CocktailsController < ApplicationController
 
   end
 
+  def home
+  end
+
 
   # def edit
   # end
