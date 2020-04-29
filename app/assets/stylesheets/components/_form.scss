@@ -1,0 +1,17 @@
+.form {
+  background-color: rgba(247, 152, 98, 0.8)
+}
+
+.form-new {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .form-info {
+    margin: 0 16px;
+  }
+  .form-button {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+}
