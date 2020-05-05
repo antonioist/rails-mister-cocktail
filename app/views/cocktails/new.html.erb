@@ -1,15 +1,17 @@
 <div class="form-new">
   <div class="form">
-    <%= simple_form_for @cocktail do |f| %>
-      <div class="form-info">
-        <%= f.input :name %>
-      </div>
-      <div class="form-info">
-        <%= f.input :photo, as: :file %>
-      </div>
-      <div class="form-button">
-        <%= f.submit "New Cocktail", class: 'btn btn-warning' %>
-      </div>
-    <% end %>
+    <div class="form-div">
+      <%= simple_form_for @cocktail do |f| %>
+        <div class="form-info">
+          <%= f.input :name %>
+        </div>
+        <div class="form-info">
+          <%= f.input :photo, as: :file %>
+        </div>
+        <div class="form-button">
+          <%= f.submit "New Cocktail", class: 'btn btn-warning' %>
+        </div>
+      <% end %>
+    </div>
   </div>
 </div>

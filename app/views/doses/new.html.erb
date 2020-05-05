@@ -1,15 +1,17 @@
 <div class="form-new">
   <div class="form">
-    <%= simple_form_for [@cocktail, @dose] do |f| %>
-      <div class="form-info">
-        <%= f.input :description %>
-      </div>
-      <div class="form-info">
-        <%= f.association :ingredient, include_blank: false %>
-      </div>
-      <div class="form-button">
-        <%= f.submit "New Cocktail", class: 'btn btn-warning' %>
-      </div>
-    <% end %>
+    <div class="form-div">
+      <%= simple_form_for [@cocktail, @dose] do |f| %>
+        <div class="form-info">
+          <%= f.input :description %>
+        </div>
+        <div class="form-info">
+          <%= f.association :ingredient, include_blank: false %>
+        </div>
+        <div class="form-button">
+          <%= f.submit "New Cocktail", class: 'btn btn-warning' %>
+        </div>
+      <% end %>
+    </div>
   </div>
 </div>
