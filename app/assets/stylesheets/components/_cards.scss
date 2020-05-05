@@ -1,3 +1,10 @@
+.content-cards {
+  margin: 8px 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -36,6 +43,7 @@
   background-size: cover;
   background-position: center;
   height: 240px;
+  width: 375px;
   display: flex;
   justify-content: center;
   align-items: center;
