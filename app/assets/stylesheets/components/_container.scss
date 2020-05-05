@@ -27,8 +27,6 @@
 }
 
 .container-show-full {
-  // display: flex;
-  // justify-content: space-around;
   position: relative;
   top: 24px;
   background-color: rgba(244, 244, 244, 0.5);
@@ -40,10 +38,10 @@
 }
 
 .container-show-body {
-  // margin-top: 200px;
-  // margin-bottom: 16px;
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
 
 }
 

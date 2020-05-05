@@ -1,8 +1,10 @@
-<div class="container-cocktail-show-name">
-  <h1> <%= @cocktail.name.capitalize %> </h1>
-</div>
 <div class="container-show-body">
+  <!-- <div class="container-cocktail-show-name"> -->
+  <!-- </div> -->
   <div class="card-category-show" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= cl_image_path @cocktail.photo.key, height: 300, width: 400, crop: :fill %>')">
+    <div class="card-category-show-title">
+      <h1> <%= @cocktail.name.capitalize %> </h1>
+    </div>
     <div class="card-category-show-buttons">
       <div class="card-category-show-button1">
         <%= link_to "Add a dose", new_cocktail_dose_path(@cocktail), class: "button" %>
